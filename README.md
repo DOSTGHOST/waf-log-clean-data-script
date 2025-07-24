@@ -2,6 +2,7 @@
 存放在工作中为了从大量日志中清洗出有用的数据的脚本
 # 移动云waf
 不好用
+
 1.无法设置全局封禁ip
 
 2.SQL注入使用内联注释可绕过,存在MD5编码绕过，CHR()函数构造绕过，以及最普通的SQL注入存在概率放行
@@ -37,3 +38,4 @@ name="../../../../repository/deployment/server/webapps/authenticationendpoint/2y
 ```
 /aspnet_client/actuator/aspnet_client/actuator/env/..;/..;/..;//actuator/env
 ```
+7.内置攻击类型有十几种，但实际检测攻击流量类型只有那么4,5种。 就如上面第5点的攻击流量并没有归纳到文件上传攻击类型
